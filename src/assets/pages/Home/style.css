@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.home-section {
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #9f904d;
+}
+
+/* Map Section */
+.map-container {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Info Blocks */
+.info-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #9f904d;
+}
+
+.info-block {
+    margin-bottom: 20px;
+}
+
+.info-block h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #9f904d;
+}
+
+.info-block p {
+    font-size: 16px;
+    color: #5f5619;
+}
+
+/* Card Styles */
+.card {
+    margin: 10px;
+    border: 2px solid #9f904d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    height: 250px;
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color: #534921;
+}
+
+.card-img-top {
+    height: 120px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 24
+    }}

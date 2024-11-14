@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9f904d;
+    padding: 10px 20px;
+    color: #fff;  
+}
+
+header .links-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header .links-container a {
+    font-size: 18px;
+}
+
+.footer {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 1;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 14px;
+}
+
+.beer{
+    text-align: left;
+}
+
+.meio{
+    text-align: right;
+}

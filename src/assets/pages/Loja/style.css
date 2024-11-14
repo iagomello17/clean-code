@@ -1,0 +1,96 @@
+/* Store Component Styles */
+.store-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.store-header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.button-cart {
+    background-color: #9f904d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-cart:hover {
+    background-color: #9f904d;
+}
+
+.store-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.store-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    position: relative; /* Allow absolute positioning of the button */
+}
+
+.store-item:hover {
+    transform: scale(1.05);
+}
+
+.store-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.store-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.store-item button {
+    background-color: #9f904d;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute; /* Position button absolutely */
+    bottom: 10px; /* Distance from the bottom of the card */
+    left: 10px; /* Distance from the left of the card */
+    display: flex;
+    align-items: center; /* Center icon and text vertically */
+}
+
+.store-item button:hover {
+    background-color: #9f904d;
+}
+
+.store-item button svg {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
+
+ 
